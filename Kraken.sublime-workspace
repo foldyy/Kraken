@@ -21,7 +21,7 @@
 			"file": "/C/Users/foldy/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 			"settings":
 			{
-				"buffer_size": 139,
+				"buffer_size": 130,
 				"line_ending": "Unix"
 			}
 		}
@@ -153,15 +153,15 @@
 					"file": "/C/Users/foldy/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 					"settings":
 					{
-						"buffer_size": 139,
+						"buffer_size": 130,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								139,
-								139
+								0,
+								0
 							]
 						],
 						"settings":
