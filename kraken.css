@@ -31,7 +31,7 @@ text-align: left;
 }
 
 #header {
-
+z-index:999;
 height:100px;
 width:100%;
 position:fixed;
@@ -111,6 +111,13 @@ margin: 0;
 padding: 6px;
 }
 
+
+p {
+  padding:5px;
+ 
+}
+
+
 #menu ul li {
 
 /*Prevent the content in the menu selected as text by disabling selecting*/
@@ -157,7 +164,7 @@ margin-right: auto;
 margin-left: auto; 
 color:#cccccc;
 background: #5E0C29;
-text-align:left;
+text-align:center;
 padding: 10px 0px;
 height: 15px;
 }
@@ -240,3 +247,38 @@ background: #52253A;
 }
 
 
+#slideout {
+  border:solid black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    text-align: center;
+    position: relative;
+    top: -500px;
+     -webkit-transition-duration: 0.7s;
+    -moz-transition-duration: 0.7s;
+    -o-transition-duration: 0.7s;
+    transition-duration: 0.7s;
+}
+
+#slideout:hover, #slideout:hover > #slideout-content {
+    top: 0px; /*which side does the slider slides*/
+}
+
+#slideout-content {
+    background-image: url('profilepic.jpg');
+    background-size:100%;
+    border: solid orange;
+    position: relative;
+    height: 400px;
+    text-align: left;
+}
+
+#slideout-name {
+  color:white;
+  padding-top:0px;
+  margin-top:0px;
+  background-color: black;
+  height:20px;
+  
+}
