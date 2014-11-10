@@ -1,9 +1,12 @@
 body {
-  background-color: #262626;
+  background-color: #473D4A;
   max-height:100%;
   margin:0%;
+  font-family: Arial, sans-serif; 
 }
 
+#top {heiggt:0px;
+  width:0px;}
 
 #headercontent
 {
@@ -19,7 +22,7 @@ body {
   position:fixed;
   top:0%;
   text-align:left;
-  background: #271F3A;
+  background: #5E0C29;
   padding: 20px 0px 0px 0px;
   margin-top:0px;
   
@@ -36,23 +39,21 @@ color:#CCCCCC;}
   margin-left:auto;
   margin-top:130px;
   width: 100%;
-  background-color: #262626 ;
+  background-color: #473D4A;
 }
-
-
 
 #content
 {
   background-color: #4FEFFF;
   border-radius:10px;
-  min-width:300px;
+  min-width:600px;
   display: inline;
   clear: left;
   float: left;
   width: 60%;
   min-height:300px;
   padding: 20px 10px;
-  margin: 10px 40px 0 40px;
+  margin: 30px 40px 0 40px;
   
 }
 
@@ -60,15 +61,16 @@ color:#CCCCCC;}
 
 #right
 {
-  min-height:300px;
+
+    min-height:300px;
   border-radius:10px;
-  background-color:#90877A;
+  background-color:#4FEFFF;
   min-width:300px;
   display: inline;
   float: left;
   width: 20%;
   padding: 20px 10px;
-  margin: 10px 40px 0 40px;
+  margin: 30px 40px  40px;
   
 }
 
@@ -76,12 +78,10 @@ color:#CCCCCC;}
 
 #menu
 {
-  
-  
-  padding: 0;
-  height:40px;
+  padding: 0px;
+  height:35px;
   width: 100%;
-  background: #A1A6AA;
+  background: #3B565B;
 }
 
 #menu ul
@@ -92,11 +92,11 @@ color:#CCCCCC;}
 
 #menu ul li
 {
-    /*Prevent the content in the menuselected as text by disabling selecting*/
+    /*Prevent the content in the menu selected as text by disabling selecting*/
     -webkit-user-select: none; /* Chrome/Safari */
     -moz-user-select: none; /* Firefox */
     -ms-user-select: none; /* IE10+ */
-    font-size:120%;
+    font-size:100%;
     display: inline;
 }
 
@@ -110,9 +110,19 @@ color:#CCCCCC;}
   border-radius: 0px 10px 10px 0px;
 }
 
-#menu li a:hover { background: #3A5F6F; }
+#menu li a:hover { background: #52253A; }
 
 
+#menu a:active {
+    position: relative;
+    left:6px;
+    top: 2px;
+
+    /*Make shadow smaller and move the button down a bit to give illusion of being "pressed"*/
+    -webkit-box-shadow: 0px 0px 10px #84261a;
+    -moz-box-shadow: 0px 0px 0px #84261a;
+    box-shadow: 0px 0px 0px #84261a;
+}
 
 #footer
 {
@@ -125,44 +135,42 @@ color:#CCCCCC;}
   height: 20px;
 }
 
-.calculator-button {
-    box-sizing:border-box;
-    width: 45px;
-    height: 40px;
-    background-color: #0E2307;
-    margin: 15px;
-    float: left;
-    cursor: pointer;
-    border: solid;
-    border-color: darkslategray;
-    color: White;
-    text-align: center;
-    font-size: 1.4em;
-    /*Prevent the number on the button from getting selected as text by disabling selecting*/
-    -webkit-user-select: none; /* Chrome/Safari */
-    -moz-user-select: none; /* Firefox */
-    -ms-user-select: none; /* IE10+ */
-    /*Set box shadow when not active*/
-    -webkit-box-shadow: 0px 9px 0px #84261a;
-    -moz-box-shadow: 0px 9px 0px #84261a;
-    box-shadow: 0px 9px 0px #84261a;
+
+
+#totop { 
+left:0px;
+height: 30px; 
+width: 30px; 
+position: fixed; 
+top: 60%; 
+z-index: 999; 
+border-radius: 4px 4px;
+/*enables text text rotation*/
+transform: rotate(-90deg);
+-webkit-transform: rotate(-90deg); 
+-moz-transform: rotate(-90deg); 
+-o-transform: rotate(-90deg); 
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 }
 
-#menu a:active {
-    position: relative;
-    left:6px;
-    top: 2px;
-    /*Make shadow smaller and move the button down a bit to give illusion of being "pressed"*/
-    -webkit-box-shadow: 0px 0px 10px #84261a;
-    -moz-box-shadow: 0px 0px 0px #84261a;
-    box-shadow: 0px 0px 0px #84261a;
+
+#totop a { 
+border: solid 1px #fff;
+display: block; 
+background: #3B565B; 
+height: 15px; 
+width: 60px; 
+padding: 8px 16px;
+color: #fff; 
+font-size: 17px; 
+font-weight: bold; 
+text-decoration: none; 
+border-radius: 0px 0px 15px 15px
+
 }
 
-.calculator-button:hover {
-    background-color: red;
+#totop :hover { 
+background: #52253A; 
 }
 
-.calculator-button-content {
-    padding: 5px;
-    color: white;
-}
+
