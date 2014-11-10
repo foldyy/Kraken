@@ -1,143 +1,156 @@
 body {
-  background-color: #473D4A;
-  max-height:100%;
-  margin:0%;
-  font-family: Arial, sans-serif; 
+
+background-color: #473D4A;
+max-height:100%;
+margin:0%;
+font-family: Arial, sans-serif; 
 }
 
-#top {heiggt:0px;
-  width:0px;}
+#top {
 
-#headercontent
-{
-  margin-left:20px;
-  padding-bottom:10px;
-  text-align: left;
+height:0px;
+width:0px;}
+
+#headercontent {
+
+margin-left:20px;
+padding-bottom:10px;
+text-align: left;
 }
 
-#header
-{
-  height:100px;
-  width:100%;
-  position:fixed;
-  top:0%;
-  text-align:left;
-  background: #5E0C29;
-  padding: 20px 0px 0px 0px;
-  margin-top:0px;
-  
+#header {
+
+height:100px;
+width:100%;
+position:fixed;
+top:0%;
+text-align:left;
+background: #5E0C29;
+padding: 20px 0px 0px 0px;
+margin-top:0px;
 }
 
-#header h1 { margin: 0; 
-color:#CCCCCC;}
-
-#container
-{
-  padding-left:5%;
-  padding-right:5%;
-  margin-right:auto;
-  margin-left:auto;
-  margin-top:130px;
-  width: 100%;
-  background-color: #473D4A;
+#header h1 { 
+margin: 0; 
+color:#CCCCCC;
 }
 
-#content
-{
-  background-color: #4FEFFF;
-  border-radius:10px;
-  min-width:600px;
-  display: inline;
-  clear: left;
-  float: left;
-  width: 60%;
-  min-height:300px;
-  padding: 20px 10px;
-  margin: 30px 40px 0 40px;
-  
+#container {
+
+padding-left:5%;
+padding-right:5%;
+margin-right:auto;
+margin-left:auto;
+margin-top:130px;
+width: 100%;
+background-color: #473D4A;
 }
 
-#content h2 { margin: 0; }
+#content {
 
-#right
-{
+background-color: #4FEFFF;
+border-radius:10px;
+min-width:600px;
+display: inline;
+clear: left;
+float: left;
+width: 60%;
+min-height:300px;
+padding: 20px 10px;
+margin: 30px 40px 0 40px;
 
-    min-height:300px;
-  border-radius:10px;
-  background-color:#4FEFFF;
-  min-width:300px;
-  display: inline;
-  float: left;
-  width: 20%;
-  padding: 20px 10px;
-  margin: 30px 40px  40px;
-  
 }
 
-
-
-#menu
-{
-  padding: 0px;
-  height:35px;
-  width: 100%;
-  background: #3B565B;
+#content h2 {
+margin: 0;
 }
 
-#menu ul
-{
-  margin: 0;
-  padding: 6px;
+#right {
+
+min-height:300px;
+border-radius:10px;
+background-color:#4FEFFF;
+min-width:300px;
+display: inline;
+float: left;
+width: 20%;
+padding: 20px 10px;
+margin: 30px 40px  40px;
 }
 
-#menu ul li
-{
-    /*Prevent the content in the menu selected as text by disabling selecting*/
-    -webkit-user-select: none; /* Chrome/Safari */
-    -moz-user-select: none; /* Firefox */
-    -ms-user-select: none; /* IE10+ */
-    font-size:100%;
-    display: inline;
+/*if needed to center use poistion relative and play with left/right position 50% 
+ul li right 50 ul left 50
+
+*/
+
+#menu {
+
+float:left;
+width:100%;  
+padding: 0px;
+height:35px;
+background: #3B565B;
+overflow: hidden;
 }
 
-#menu li a
-{
-  display: inline;
-  padding: 5px 10px;
-  color: #fff;
-  text-decoration: none;
-  border-right: 1px solid #CCCCCC;
-  border-radius: 0px 10px 10px 0px;
+#menu ul {
+
+margin: 0;
+padding: 6px;
 }
 
-#menu li a:hover { background: #52253A; }
+#menu ul li {
+
+/*Prevent the content in the menu selected as text by disabling selecting*/
+-webkit-user-select: none; /* Chrome/Safari */
+-moz-user-select: none; /* Firefox */
+-ms-user-select: none; /* IE10+ */
+font-size:100%;
+display: inline;
+}
+
+#menu li a {
+
+display: inline;
+padding: 5px 10px;
+color: #fff;
+text-decoration: none;
+border-right: 1px solid #CCCCCC;
+border-radius: 0px 10px 10px 0px;
+}
+
+#menu li a:hover { 
+
+background: #52253A; 
+}
 
 
 #menu a:active {
-    position: relative;
-    left:6px;
-    top: 2px;
 
-    /*Make shadow smaller and move the button down a bit to give illusion of being "pressed"*/
-    -webkit-box-shadow: 0px 0px 10px #84261a;
-    -moz-box-shadow: 0px 0px 0px #84261a;
-    box-shadow: 0px 0px 0px #84261a;
+position: relative;
+left:6px;
+top: 2px;
+/*Make shadow smaller and move the button down a bit to give illusion of being "pressed"*/
+-webkit-box-shadow: 0px 0px 10px #84261a;
+-moz-box-shadow: 0px 0px 0px #84261a;
+box-shadow: 0px 0px 0px #84261a;
 }
 
-#footer
-{
-  position:fixed;
-  bottom:0%;
-  width:100%;
-  background: #D9B2B2;
-  text-align: center;
-  padding-top: 20px;
-  height: 20px;
+#footer {
+
+position:fixed;
+bottom:0%;
+width:100%;
+background: #D9B2B2;
+text-align: center;
+padding-top: 20px;
+height: 20px;
 }
 
 
 
 #totop { 
+
 left:0px;
 height: 30px; 
 width: 30px; 
@@ -155,6 +168,7 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 
 
 #totop a { 
+
 border: solid 1px #fff;
 display: block; 
 background: #3B565B; 
@@ -166,10 +180,10 @@ font-size: 17px;
 font-weight: bold; 
 text-decoration: none; 
 border-radius: 0px 0px 15px 15px
-
 }
 
 #totop :hover { 
+
 background: #52253A; 
 }
 
