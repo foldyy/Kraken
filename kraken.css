@@ -19,47 +19,14 @@ body {
   position:fixed;
   top:0%;
   text-align:left;
-  background: #2B2B36;
+  background: #271F3A;
   padding: 20px 0px 0px 0px;
   margin-top:0px;
   
 }
 
 #header h1 { margin: 0; 
-color:#FF4E44;}
-
-#menu
-{
-  padding: 0;
-  float: left;
-  width: 100%;
-  background: #A1A6AA;
-}
-
-#menu ul
-{
-  margin: 0;
-  padding: 0;
-}
-
-#menu ul li
-{
-  
-  display: inline;
-}
-
-#menu li a
-{
-  display: block;
-  float: left;
-  padding: 5px 10px;
-  color: #fff;
-  text-decoration: none;
-  border-right: 1px solid #CCCCCC;
-  border-radius: 4px 4px 4px 0;
-}
-
-#menu li a:hover { background: #383; }
+color:#CCCCCC;}
 
 #container
 {
@@ -83,6 +50,7 @@ color:#FF4E44;}
   clear: left;
   float: left;
   width: 60%;
+  min-height:300px;
   padding: 20px 10px;
   margin: 10px 40px 0 40px;
   
@@ -92,7 +60,7 @@ color:#FF4E44;}
 
 #right
 {
-  
+  min-height:300px;
   border-radius:10px;
   background-color:#90877A;
   min-width:300px;
@@ -104,14 +72,97 @@ color:#FF4E44;}
   
 }
 
-#right h3 { margin: 0; }
+
+
+#menu
+{
+  
+  
+  padding: 0;
+  height:40px;
+  width: 100%;
+  background: #A1A6AA;
+}
+
+#menu ul
+{
+  margin: 0;
+  padding: 6px;
+}
+
+#menu ul li
+{
+    /*Prevent the content in the menuselected as text by disabling selecting*/
+    -webkit-user-select: none; /* Chrome/Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+ */
+    font-size:120%;
+    display: inline;
+}
+
+#menu li a
+{
+  display: inline;
+  padding: 5px 10px;
+  color: #fff;
+  text-decoration: none;
+  border-right: 1px solid #CCCCCC;
+  border-radius: 0px 10px 10px 0px;
+}
+
+#menu li a:hover { background: #3A5F6F; }
+
+
 
 #footer
 {
-  clear: both;
+  position:fixed;
+  bottom:0%;
+  width:100%;
   background: #D9B2B2;
   text-align: center;
   padding-top: 20px;
   height: 20px;
 }
 
+.calculator-button {
+    box-sizing:border-box;
+    width: 45px;
+    height: 40px;
+    background-color: #0E2307;
+    margin: 15px;
+    float: left;
+    cursor: pointer;
+    border: solid;
+    border-color: darkslategray;
+    color: White;
+    text-align: center;
+    font-size: 1.4em;
+    /*Prevent the number on the button from getting selected as text by disabling selecting*/
+    -webkit-user-select: none; /* Chrome/Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+ */
+    /*Set box shadow when not active*/
+    -webkit-box-shadow: 0px 9px 0px #84261a;
+    -moz-box-shadow: 0px 9px 0px #84261a;
+    box-shadow: 0px 9px 0px #84261a;
+}
+
+#menu a:active {
+    position: relative;
+    left:6px;
+    top: 2px;
+    /*Make shadow smaller and move the button down a bit to give illusion of being "pressed"*/
+    -webkit-box-shadow: 0px 0px 10px #84261a;
+    -moz-box-shadow: 0px 0px 0px #84261a;
+    box-shadow: 0px 0px 0px #84261a;
+}
+
+.calculator-button:hover {
+    background-color: red;
+}
+
+.calculator-button-content {
+    padding: 5px;
+    color: white;
+}
