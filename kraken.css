@@ -1,284 +1,295 @@
 body {
 
-background-color: #473D4A;
-max-height:100%;
-margin:0;
-font-family: Arial, sans-serif; 
+    background-color: #473D4A;
+    max-height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
 
 p {
 
-line-height: 150%;
+    line-height: 150%;
 
 }
 
 li {
-  color: #5E0C29;
-  line-height: 200%;
-  font-weight: bold;
+    color: #5E0C29;
+    line-height: 200%;
+    font-weight: bold;
 }
 
 #top {
 
-height:0px;
-width:0px;}
+    height: 0px;
+    width: 0px;
+}
 
 #headercontent {
 
-margin-left:20px;
-padding-bottom:10px;
-text-align: left;
+    margin-left: 20px;
+    padding-bottom: 10px;
+    text-align: left;
 }
 
 #header {
-z-index:999;
-height:100px;
-width:100%;
-position:fixed;
-top:0%;
-text-align:left;
-background: #5E0C29;
-padding: 20px 0px 0px 0px;
-margin-top:0px;
+    z-index: 999;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    text-align: left;
+    background: #5E0C29;
+    padding: 20px 0px 0px 0px;
+    margin-top: 0px;
 }
 
-#header h1 { 
-margin: 0; 
-color:#CCCCCC;
+#header h1 {
+    margin: 0;
+    color: #CCCCCC;
 }
 
 #container {
 
-padding-left:5%;
-padding-right:5%;
-margin-right:auto;
-margin-left:auto;
-margin-top:130px;
-width: 100%;
-background-color: #473D4A;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 130px;
+    width: 100%;
+    background-color: #473D4A;
 }
 
 #content {
 
-background-color: #4FEFFF;
-border-radius:10px;
-min-width:600px;
-display: inline;
-clear: left;
-float: left;
-width: 60%;
-min-height:300px;
-padding: 20px 20px;
-margin: 30px 40px 0 40px;
+    background-color: #4FEFFF;
+    border-radius: 10px;
+    min-width: 600px;
+    display: inline;
+    clear: left;
+    float: left;
+    width: 60%;
+    min-height: 300px;
+    padding: 20px 20px;
+    margin: 30px 40px 0 40px;
 
 }
 
 #content h2 {
-margin: 0;
+    margin: 0;
 }
 
 #right {
 
-min-height:300px;
-border-radius:10px;
-background-color:#4FEFFF;
-min-width:300px;
-display: inline;
-float: left;
-width: 20%;
-padding: 20px 20px;
-margin: 30px 40px  40px;
+    min-height: 300px;
+    border-radius: 10px;
+    background-color: #4FEFFF;
+    min-width: 300px;
+    display: inline;
+    float: left;
+    width: 20%;
+    padding: 20px 20px;
+    margin: 30px 40px 40px;
 }
 
-/*if needed to center use poistion relative and play with left/right position 50% 
-ul li right 50 ul left 50
+if needed to center use poistion relative and play with left
 
-*/
+/
+right position
+
+50
+%
+ul li right
+
+50
+ul left
+
+50
 
 #menu {
 
-float:left;
-width:100%;  
-padding: 0px;
-height:35px;
-background: #3B565B;
-overflow: hidden;
+    float: left;
+    width: 100%;
+    padding: 0px;
+    height: 35px;
+    background: #3B565B;
+    overflow: hidden;
 }
 
 #menu ul {
 
-margin: 0;
-padding: 6px;
+    margin: 0;
+    padding: 6px;
 }
-
 
 p {
-  padding:5px;
- 
-}
+    padding: 5px;
 
+}
 
 #menu ul li {
 
-/*Prevent the content in the menu selected as text by disabling selecting*/
--webkit-user-select: none; /* Chrome/Safari */
--moz-user-select: none; /* Firefox */
--ms-user-select: none; /* IE10+ */
-font-size:100%;
-display: inline;
+    Prevent the content in the menu selected as text by disabling selecting -webkit-user-select : none;
+    Chrome / Safari -moz-user-select : none;
+    Firefox -ms-user-select: none;
+    IE10+font-size: 100%;
+    display: inline;
 }
 
 #menu li a {
 
-display: inline;
-padding: 5px 10px;
-color: #fff;
-text-decoration: none;
-border-right: 1px solid #CCCCCC;
-border-radius: 0px 10px 10px 0px;
+    display: inline;
+    padding: 5px 10px;
+    color: #fff;
+    text-decoration: none;
+    border-right: 1px solid #CCCCCC;
+    border-radius: 0px 10px 10px 0px;
 }
 
-#menu li a:hover { 
-color:#9FA3E4;
-background: #52253A; 
+#menu li a:hover {
+    color: #9FA3E4;
+    background: #52253A;
 }
-
 
 #menu a:active {
 
-position: relative;
-left:6px;
-top: 2px;
-/*Make shadow smaller and move the button down a bit to give illusion of being "pressed"*/
--webkit-box-shadow: 0px 0px 10px #84261a;
--moz-box-shadow: 0px 0px 0px #84261a;
-box-shadow: 0px 0px 0px #84261a;
+    position: relative;
+    left: 6px;
+    top: 2px;
+    Make shadow smaller and move the button down a bit to give illusion of being "pressed" -webkit-box-shadow : 0 px 0 px 10 px #84261a;
+    -moz-box-shadow: 0px 0px 0px #84261a;
+    box-shadow: 0px 0px 0px #84261a;
 }
 
 #footer {
 
-position:fixed;
-bottom:0px;
-width:100%;
-margin-right: auto;
-margin-left: auto; 
-color:#cccccc;
-background: #5E0C29;
-text-align:center;
-padding: 10px 0px;
-height: 15px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    color: #cccccc;
+    background: #5E0C29;
+    text-align: center;
+    padding: 10px 0px;
+    height: 15px;
 }
 
-#footerleft{
-display:inline;
-color:#ccccccc;
-margin:0px 10px;
-float:left;
-width:33%;
+#footerleft {
+    display: inline;
+    color: #ccccccc;
+    margin: 0px 10px;
+    float: left;
+    width: 33%;
 }
-
-
 
 #footercenter {
-display:inline;
-margin-left:auto;
-margin-right: auto;
-width:33%;
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    width: 33%;
 }
 
 #footercenter a {
 
-  color:#cccccc;
-  text-decoration: none;
+    color: #cccccc;
+    text-decoration: none;
 }
 
 #footercenter a:hover {
-  color:#3B565B;
+    color: #3B565B;
 }
 
 #footerright {
-position:relative;
+    position: relative;
 
-display:inline;
-margin:0px 0px;
-width:33%;
-float:right;
-text-align: righ;
+    display: inline;
+    margin: 0px 0px;
+    width: 33%;
+    float: right;
+    text-align: righ;
 }
 
+#totop {
 
-
-#totop { 
-
-left:0px;
-height: 30px; 
-width: 30px; 
-position: fixed; 
-top: 60%; 
-z-index: 999; 
-border-radius: 4px 4px;
-/*enables text text rotation*/
-transform: rotate(-90deg);
--webkit-transform: rotate(-90deg); 
--moz-transform: rotate(-90deg); 
--o-transform: rotate(-90deg); 
-filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    left: 0px;
+    height: 30px;
+    width: 30px;
+    position: fixed;
+    top: 60%;
+    z-index: 999;
+    border-radius: 4px 4px;
+    enables text text rotation transform : rotate(- 90 deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 }
 
+#totop a {
 
-#totop a { 
-
-border: solid 1px #fff;
-display: block; 
-background: #3B565B; 
-height: 15px; 
-width: 60px; 
-padding: 8px 16px;
-color: #fff; 
-font-size: 17px; 
-font-weight: bold; 
-text-decoration: none; 
-border-radius: 0px 0px 15px 15px
+    border: solid 1px #fff;
+    display: block;
+    background: #3B565B;
+    height: 15px;
+    width: 60px;
+    padding: 8px 16px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 0px 0px 15px 15px
 }
 
-#totop :hover { 
-color:#9FA3E4;
-background: #52253A; 
+#totop :hover {
+    color: #9FA3E4;
+    background: #52253A;
 }
-
 
 #slideout {
-  border:solid black;
-    margin-left: auto;
-    margin-right: auto;
-    width: 300px;
+    top: 50%;
+    left: 50%;
+    width: 380px;
     text-align: center;
-    position: relative;
-    top: -500px;
-     -webkit-transition-duration: 0.7s;
+    position: fixed;
+    /*margin-top: -100px;*/
+    margin-left: -190px;
+    top: -255px;
+    -webkit-transition-duration: 0.7s;
     -moz-transition-duration: 0.7s;
     -o-transition-duration: 0.7s;
     transition-duration: 0.7s;
 }
 
 #slideout:hover, #slideout:hover > #slideout-content {
-    top: 0px; /*which side does the slider slides*/
+    top: 60px; /*which side does the slider slides*/
 }
 
 #slideout-content {
-    background-image: url('profilepic.jpg');
-    background-size:100%;
-    border: solid orange;
     position: relative;
     height: 400px;
     text-align: left;
 }
 
+#slideout-content-wrapper {
+    font-family: Arial;
+    margin: auto;
+    width: 300px;
+    border: solid black;
+}
+
 #slideout-name {
-  color:white;
-  padding-top:0px;
-  margin-top:0px;
-  background-color: black;
-  height:20px;
-  
+    color: white;
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+#profile-pic {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
 }
